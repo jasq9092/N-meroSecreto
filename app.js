@@ -7,7 +7,7 @@ parrafo.innerHTML = 'Indica un número del 1 al 10';*/
 let numeroSecreto = 0; //generandoNumeroSecreto();
 let intentos = 0;
 let listaNumerosSorteados = [];
-let cantidadLimite = 10;
+let cantidadLimite = 20;
 
 function verificandoIntento(){
     let numeroDeUsuario = parseInt (document.getElementById("valorUsuario").value);
